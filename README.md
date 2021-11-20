@@ -17,7 +17,7 @@ Database / The basics / SQL
 [![telegram][logotelegram]][telegram]
 [![linkedin][logolinkedin]][linkedin]
 
-![](https://github.com/Mybono/Mybono/blob/main/assets/java%20wp.jpeg "wp")
+![]( "wp")
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/Mybono/SQL.Database.Basics)
 
