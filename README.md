@@ -1,7 +1,7 @@
 # SQL.Database.Basics.
 Database / The basics / SQL
 
-+ Lesson 1 / [Video]() / [Homework]() / [ReadMe]() / [Presentation]()
++ Lesson 1 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson3.md) / [ReadMe]() / [Presentation]()
 + Lesson 2 / [Video]() / [Homework]() / [ReadMe]() / [Presentation]()
 + Lesson 3 / [Video]() / [Homework]() / [ReadMe]() / [Presentation]()
 + Lesson 4 / [Video]() / [Homework]() / [ReadMe]() / [Presentation]()
