@@ -9,24 +9,33 @@
 .mode column
 
 SELECT number, 
-	(SELECT name FROM courses WHERE courses.id = training_groups.course_id) AS course_name, students_amount 
+	(SELECT name FROM courses WHERE courses.id = training_groups.course_id)
+		AS course_name, students_amount 
 		FROM training_groups
 			WHERE students_amount >= 40;
 
 SELECT MIN(grade),
-	(SELECT name FROM courses WHERE id = stream_id) AS course_name, 
-	(SELECT name || surname FROM teachers WHERE id = teacher_id) AS teacher_name FROM progress;
+	(SELECT name FROM courses WHERE id = stream_id  ASC LIMIT 2) 
+		AS course_name, 
+	(SELECT name || surname FROM teachers WHERE id = teacher_id) 
+		AS teacher_name FROM progress;
   
 SELECT teacher_id, AVG(grade)
 	FROM progress
 		WHERE teacher_id = (SELECT id FROM teachers WHERE surname = 'Савельев' AND name = 'Николай');
 
-SELECT number 
-	FROM training_groups 
-		WHERE id = (SELECT stream_id FROM progress WHERE teacher_id = (SELECT id FROM teachers WHERE surname = 'Петрова' AND name = 'Наталья'))
-UNION ALL
-SELECT
-	(SELECT name || surname FROM teachers WHERE id = teacher_id) AS teacher_name FROM progress
-		WHERE grade < 4.8;
+SELECT stream_id,
+ (SELECT name FROM teachers WHERE teachers.id = progress.teacher_id)
+     AS teacher_name,
+   (SELECT surname FROM teachers WHERE teachers.id = progress.teacher_id)
+     AS teacher_surname
+ FROM progress WHERE teacher_id = (SELECT id FROM teachers WHERE name = 'Наталья' AND surname = 'Петрова')
+UNION
+SELECT stream_id,
+ (SELECT name FROM teachers WHERE teachers.id = progress.teacher_id)
+     AS teacher_name,
+   (SELECT surname FROM teachers WHERE teachers.id = progress.teacher_id)
+     AS teacher_surname
+ FROM progress WHERE grade < 4.8;
 .quit
 ```
