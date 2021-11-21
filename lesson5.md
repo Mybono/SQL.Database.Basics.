@@ -13,9 +13,8 @@ SELECT MIN(grade),
 	(SELECT name FROM courses WHERE id = stream_id) AS course_name, 
 	(SELECT name || surname FROM teachers WHERE id = teacher_id) AS teacher_name FROM progress;
   
-SELECT (SELECT id FROM teachers WHERE surname = 'Савельев' AND name = 'Николай') AS teacher_id, 
-AVG(grade)
-FROM progress WHERE (SELECT id FROM teachers WHERE surname = 'Савельев' AND name = 'Николай');
+SELECT teacher_id, AVG(grade)
+FROM progress WHERE teacher_id = (SELECT id FROM teachers WHERE surname = 'Савельев' AND name = 'Николай');
 
 SELECT number FROM training_groups WHERE id = (SELECT stream_id FROM progress WHERE teacher_id = (SELECT id FROM teachers WHERE surname = 'Петрова' AND name = 'Наталья'))
 UNION ALL
