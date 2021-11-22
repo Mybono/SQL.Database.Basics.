@@ -1,9 +1,9 @@
 # SQL.Database.Basics.
 Database / The basics / SQL
 
-+ Lesson 3 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson3.md) / [ReadMe]()
-+ Изменение структуры базы данных
-+ Изменение имени таблицы
++ Lesson 3 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson3.md) / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
+- Изменение структуры базы данных
+- Изменение имени таблицы
 + Изменение имени столбца
 + Добавление столбца в таблицу
 + Удаление таблицы
@@ -19,12 +19,12 @@ Database / The basics / SQL
 + Режим вывода tabs
 + Обновление существующих данных
 + Удаление данных
-+ Lesson 4 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson4.md) / [ReadMe]()
-+ Lesson 5 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson5.md) / [ReadMe]()
++ Lesson 4 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson4.md) / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
++ Lesson 5 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson5.md) / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
 + Lesson 6 - Объединение JOIN / [Video](https://youtu.be/fsEur5eIGN4) / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson6.md) / [ReadMe](https://docs.google.com/document/d/1R5iV11UctEf_cthAd4lJPcDtelGjVlCTbtbyf6r0nQk/edit#heading=h.gjdgxs)
-+ Lesson 7 / [Video]() / [Homework]() / [ReadMe]()
-+ Lesson 8 / [Video]() / [Homework]() / [ReadMe]()
-+ Lesson 9 / [Video]() / [Homework]() / [ReadMe]()
++ Lesson 7 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
++ Lesson 8 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
++ Lesson 9 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
 
 
 
