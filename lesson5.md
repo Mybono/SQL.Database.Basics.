@@ -14,11 +14,17 @@ SELECT number,
 		FROM training_groups
 			WHERE students_amount >= 40;
 
-SELECT MIN(grade),
-	(SELECT name FROM courses WHERE id = stream_id  ASC LIMIT 2) 
-		AS course_name, 
-	(SELECT name || surname FROM teachers WHERE id = teacher_id) 
-		AS teacher_name FROM progress;
+SELECT
+	(SELECT number FROM streams WHERE streams.id = academic_performance.stream_id) 
+		AS stream_number,
+	(SELECT name FROM courses WHERE courses.id = (SELECT course_id FROM streams WHERE id = academic_performance.stream_id))
+		AS course_name,
+	(SELECT name || ' ' || surname FROM teachers WHERE teachers.id = academic_performance.teacher_id)
+		AS teacher,
+performance
+	FROM academic_performance
+		ORDER BY performance
+LIMIT 2;
   
 SELECT teacher_id, AVG(grade)
 	FROM progress
