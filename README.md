@@ -1,7 +1,7 @@
 # SQL.Database.Basics.
 Database / The basics / SQL
 
-3. Lesson 3 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson3.md) / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
+#### Lesson 3 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson3.md) / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
   + Изменение структуры базы данных 
   + Изменение имени таблицы
   + Изменение имени столбца
@@ -19,12 +19,37 @@ Database / The basics / SQL
   + Режим вывода tabs
   + Обновление существующих данных
   + Удаление данных
-4. Lesson 4 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson4.md) / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
-5. Lesson 5 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson5.md) / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
-6. Lesson 6 - Объединение JOIN / [Video](https://youtu.be/fsEur5eIGN4) / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson6.md) / [ReadMe](https://docs.google.com/document/d/1R5iV11UctEf_cthAd4lJPcDtelGjVlCTbtbyf6r0nQk/edit#heading=h.gjdgxs)
-7. Lesson 7 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
-8. Lesson 8 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
-9. Lesson 9 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
+#### Lesson 4 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson4.md) / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
+- Команда SELECT, базовый синтаксис
+  + Определение имени таблицы
+  + Список столбцов в запросе
+  + Условие для получения среза данных
+  + Ограничение на вывод количества строк
+  + Сортировка результатов
+  + Получение только уникальных значений
+- Расширенные варианты определения условия
+  - Условие неравенства
+  - Условие «больше или меньше»
+  - Условие по нескольким критериям
+  - Поиск по диапазону значений, BETWEEN
+  - Поиск по списку значений, IN
+  - Условия равенства для значения NULL
+- Арифметические операции
+- Использование встроенных функций
+  - Поиск по шаблону, LIKE
+  - Функции для работы с датой и временем
+- Агрегирование данных
+  - Понятие группировки, нахождение среднего значения
+  - Подсчёт количества
+  - Поиск максимального и минимального значения
+  - Получение суммы
+  - Применение фильтра к расчётным значениям, HAVING
+
+#### Lesson 5 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson5.md) / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
+#### Lesson 6 - Объединение JOIN / [Video](https://youtu.be/fsEur5eIGN4) / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson6.md) / [ReadMe](https://docs.google.com/document/d/1R5iV11UctEf_cthAd4lJPcDtelGjVlCTbtbyf6r0nQk/edit#heading=h.gjdgxs)
+#### Lesson 7 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
+#### Lesson 8 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
+#### Lesson 9 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
 
 
 
