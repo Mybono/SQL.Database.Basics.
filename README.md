@@ -48,6 +48,12 @@ Database / The basics / SQL
 #### Lesson 5 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson5.md) / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
 #### Lesson 6 - Объединение JOIN / [Video](https://youtu.be/fsEur5eIGN4) / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson6.md) / [ReadMe](https://docs.google.com/document/d/1R5iV11UctEf_cthAd4lJPcDtelGjVlCTbtbyf6r0nQk/edit#heading=h.gjdgxs)
 #### Lesson 7 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
+- Расширенные возможности SQL
+  - Представления
+  - Временные таблицы
+  - Транзакции
+  - Триггеры
+- Анализ сложных запросов
 #### Lesson 8 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
 #### Lesson 9 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
 
