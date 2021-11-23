@@ -46,6 +46,12 @@ Database / The basics / SQL
   - Применение фильтра к расчётным значениям, HAVING
 
 #### Lesson 5 / [Video]() / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson5.md) / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
+- Введение в многотабличные запросы
+  - Вложенные запросы
+    - Вложенные запросы в части SELECT
+    - Вложенные запросы в части FROM
+    - Вложенные запросы в части WHERE
+  - Объединение данных через UNION
 #### Lesson 6 - Объединение JOIN / [Video](https://youtu.be/fsEur5eIGN4) / [Homework](https://github.com/Mybono/SQL.Database.Basics./blob/main/lesson6.md) / [ReadMe](https://docs.google.com/document/d/1R5iV11UctEf_cthAd4lJPcDtelGjVlCTbtbyf6r0nQk/edit#heading=h.gjdgxs)
 - Объединение таблиц через JOIN
   - Типы объединения JOIN
