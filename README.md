@@ -70,8 +70,7 @@ Database / The basics / SQL
   - Транзакции
   - Триггеры
 - Анализ сложных запросов
-#### Lesson 8 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
-#### Lesson 9 / [Video]() / [Homework]() / [ReadMe](https://docs.google.com/document/d/1BzlsgcwrzI0epqYkaQXpmpyNwBDy_a-kGU5MHKUm64s/edit#)
+
 
 
 
